@@ -14,10 +14,10 @@
 	<artifactId>contact-application-spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>contact-application-spring</name>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot AOP</description>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
