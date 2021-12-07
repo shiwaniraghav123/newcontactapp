@@ -1,4 +1,4 @@
-FROM openjdk:11
-ADD target/contact-application-spring-0.0.1-SNAPSHOT.war contact-application-spring-0.0.1-SNAPSHOT.war
+FROM openjdk:8-jdk-alpine
+ADD target/contact-application-spring-0.0.1-SNAPSHOT.jar contact-application-spring-0.0.1-SNAPSHOT.jar
 EXPOSE 9000
-ENTRYPOINT ["java","-war", "contact-application-spring-0.0.1-SNAPSHOT.war"]
+ENTRYPOINT ["java","-jar", "contact-application-spring-0.0.1-SNAPSHOT.jar"]
